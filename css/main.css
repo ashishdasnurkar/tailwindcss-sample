@@ -525,6 +525,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 28rem;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -535,6 +539,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -603,6 +611,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-darkGrayishBlue {
+  --tw-text-opacity: 1;
+  color: hsl(227 12% 61% / var(--tw-text-opacity));
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(12 88% 69% / var(--tw-bg-opacity));
@@ -630,10 +643,18 @@ Ensure the default browser behavior of the `hidden` attribute.
     flex-direction: row;
   }
 
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-5xl {

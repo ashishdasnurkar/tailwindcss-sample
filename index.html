@@ -16,7 +16,7 @@
           <img src="img/logo.svg" alt="" />
         </div>
         <!--menu items-->
-        <div class="hidden md:flex space-x-6">
+        <div class="hidden md:flex space-x-6 md:flex">
           <a href="#" class="hover:text-darkGrayishBlue">Product</a>
           <a href="#" class="hover:text-darkGrayishBlue">Solutions</a>
           <a href="#" class="hover:text-darkGrayishBlue">Docs</a>
@@ -26,7 +26,7 @@
         <!--Button-->
         <a
           href="#"
-          class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+          class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
           >Contact Sales</a
         >
       </div>
@@ -37,12 +37,24 @@
       >
         <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
           <h1
-            class="max-w-md text-4xl font-bold text-center md:text-5xl md:textleft"
+            class="max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
           >
             Authenticate everything everyone
           </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Quickly add authentication to your web apps with a drop-in SDK.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+              >Contact Sales
+            </a>
+          </div>
         </div>
-        <div></div>
+        <div class="md:w-1/2">
+          <img src="img/illustration-intro.svg" alt="" />
+        </div>
       </div>
     </section>
   </body>
